@@ -26,7 +26,7 @@ const App = () => {
     <div
       className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
       style={{
-        backgroundImage: `url('https://tse4.mm.bing.net/th?id=OIP.N5CC-075fXpz01zpRyTtEAHaFj&pid=Api&P=0&h=180')`,
+        backgroundImage: `url('https://besthqwallpapers.com/Uploads/1-4-2021/160486/finance-icons-blue-finance-background-currency-icons-money-background-currency-concepts.jpg')`,
       }}
     >
       <div className="w-full">
@@ -45,13 +45,13 @@ const App = () => {
                 currencyOptions={options}
                 onCurrencyChange={(currency) => SetAmount(amount)}
                 onAmountChange={(amount) => SetAmount(amount)}
-                selectCurrency={from}
+                selectCurrency={from}//from
               />
             </div>
             <div className="relative w-full h-0.5">
               <button
                 type="button"
-                className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 border-2 border-white rounded-md bg-blue-600 text-white px-2 py-0.5"
+                className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 border-2 border-white rounded-md bg-blue-800 text-white px-2 py-0.5"
                 onClick={swap}
               >
                 swap
@@ -63,12 +63,12 @@ const App = () => {
                 amount={convertedAmount}
                 currencyOptions={options}
                 onCurrencyChange={(currency) => SetTo(currency)}
-                selectCurrency={from}
+                selectCurrency={to}
                 amountDisable
               />
 
             </div>
-            <button type="submit" className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg">
+            <button type="submit" className="w-full bg-blue-800 text-white px-4 py-3 rounded-lg">
               Convert {from.toUpperCase()} to {to.toUpperCase()}
             </button>
           </form>

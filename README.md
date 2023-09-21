@@ -7,7 +7,7 @@ Welcome to the Currency Converter App, a simple React application styled with Ta
 - [Features](#features)
 
 
-  Live Demo:** [Currency Converter](https://your-demo-link-here.com)
+  Live Demo:** [Currency Converter](https://simran-portfoloio-currencyconverter.netlify.app/)
 
 ## Features
 - Convert between different currencies in real-time.
